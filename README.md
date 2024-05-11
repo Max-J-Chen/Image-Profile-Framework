@@ -1,5 +1,17 @@
 # Comparative Analysis of Disease Similarities: A Framework for Model Selection and Fine-Tuning
 
+## Colab Notebooks
+
+To explore the implementation details and experiments conducted in this project, you can access the following Colab notebooks:
+
+- [X-Ray Model Selection and Fine-Tuning](https://colab.research.google.com/drive/13DjendzvETAEejBYaypRLMyJB3NA9djy?usp=sharing)
+  - This notebook contains the implementation of the model selection and fine-tuning process for X-ray images.
+  
+- [Image Profile Generation](https://colab.research.google.com/drive/1zLbmpql0L5Nc0sh9qgSCniwwKR9BevBY?usp=sharing)
+  - Explore how image profiles are generated using the Structural Similarity Index Measure (SSIM) in this notebook.
+
+Feel free to experiment with the code, tweak parameters, and run additional analyses using these interactive Colab notebooks!
+
 # Description:
 This project focuses on developing effective strategies for fine-tuning convolutional neural network (CNN) models to improve disease identification in medical imaging, particularly when faced with limited labeled data. Leveraging the concept of image profiles, our approach aims to guide the selection of pre-trained base models for fine-tuning by evaluating the structural similarity between diseases in medical images.
 
